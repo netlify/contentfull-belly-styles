@@ -4,7 +4,9 @@
   "description": "Styles for ContentFull Belly project",
   "main": "styles.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/netlify/contentfull-belly-styles/issues"
   },
-  "homepage": "https://github.com/netlify/contentfull-belly-styles#readme"
+  "homepage": "https://github.com/netlify/contentfull-belly-styles#readme",
+  "devDependencies": {
+    "vitepress": "^0.19.1"
+  }
 }
