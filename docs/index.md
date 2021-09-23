@@ -5,7 +5,7 @@
 Install the CSS library in your library.
 
 ```bash
-npm install contenfull-belly-styles
+npm install contentfull-belly-styles
 ```
 
 Import the styles into your framework.
