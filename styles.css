@@ -1,10 +1,1 @@
-.diet-icon {
-  width: 32px;
-  height: 32px;
-  border: 1px solid #222;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
+.nav-item{display:flex;justify-content:center;align-items:center;height:100px;list-style-type:none;border-top:1px solid #222}.nav-item:last-child{border-bottom:1px solid #222}.nav-item-link{display:grid;justify-items:center;grid-template-rows:40px auto;grid-row-gap:5px;font-weight:bold;text-decoration:none;color:#222}.main-nav-list{margin:0;padding:0}.sidebar{display:grid;align-items:center;grid-template-rows:200px 1fr 75px}.main-footer{align-self:end}.menu-item-description{margin:0}.menu-item-diet{display:flex;margin:0;padding:0}.menu-item-diet li{margin-left:10px;list-style-type:none}.menu-item-diet li:first-child{margin-left:15px}.menu-item-header{display:flex;align-items:center;margin-bottom:10px}.menu-item-price{margin-left:15px;font-size:18px}.menu-item-title{margin:0;font-size:20px}.menu-page{margin:80px}.section-title{margin:0 0 30px;font-size:40px;font-weight:bold;text-transform:uppercase}.section-title:after{content:"";display:block;width:150px;height:10px;margin-top:20px;margin-left:1px;background-color:#c83030}:root{--sansSerif: "Quicksand", "Segoe UI", Candara, "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif}*,html,body{box-sizing:border-box}html,body{margin:0;padding:0}#app{font-family:var(--sansSerif);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.built-with-text{font-size:.8rem}.home-grid{display:grid;grid-template-columns:200px 1fr}.sidebar{height:100vh;border-right:1px solid #222;left:0}.diet-icon{width:32px;height:32px;border:1px solid #222;border-radius:50%;display:flex;justify-content:center;align-items:center;text-decoration:none}
