@@ -5,7 +5,7 @@ module.exports = {
       '/': [
         {
           text: 'Introduction',
-          children: [{ text: 'Getting Started', link: '/' }]
+          children: [{ text: 'Installation', link: '/' }]
         },
         {
           text: 'Components',
