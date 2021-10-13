@@ -9,11 +9,18 @@ module.exports = {
         },
         {
           text: 'Layout',
-          children: [{ text: 'Desktop', link: '/layouts/desktop' }]
+          children: [
+            { text: 'Desktop', link: '/layouts/desktop' },
+            { text: 'Menu Page', link: '/layouts/menu-page' }
+          ]
         },
         {
           text: 'Components',
-          children: [{ text: 'Diet Icon', link: '/components/diet-icon' }]
+          children: [
+            { text: 'Diet Icon', link: '/components/diet-icon' },
+            { text: 'Main Sidebar', link: '/components/main-sidebar' },
+            { text: 'Menu Item', link: '/components/menu-item' }
+          ]
         }
       ]
     }

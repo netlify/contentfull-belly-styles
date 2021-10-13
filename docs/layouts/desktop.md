@@ -8,3 +8,11 @@
   <MenuPage />
 </div>
 ```
+
+## CSS
+
+```css
+.home-grid {
+  margin-left: 200px;
+}
+```
