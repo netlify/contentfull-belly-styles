@@ -2,9 +2,8 @@
 
 This is how dietary restrictions can be designated on menu items.
 
-## Implementation
 
-### HTML
+## HTML
 
 ```html
 <abbr title="Vegetarian" class="diet-icon">V</abbr>
@@ -14,9 +13,11 @@ This is how dietary restrictions can be designated on menu items.
 
 ```css
 .diet-icon {
-  width: 32px;
-  height: 32px;
-  border: 1px solid #222;
+  font-size: 0.9em;
+  width: 2em;
+  height: 2em;
+  border: 2px solid var(--secondary-text-color);
+  background-color: #fff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -25,7 +26,7 @@ This is how dietary restrictions can be designated on menu items.
 }
 ```
 
-### JavaScript Sample
+## JavaScript Sample
 
 ```ts
 type Diets = 'Vegetarian' | 'Vegan' | 'Pescatarian' | 'Gluten-Free'

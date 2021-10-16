@@ -1,54 +1,41 @@
-## Main Sidebar
+# Main Sidebar
+
+## HTML
 
 ```html
-<aside class="sidebar">
-  <a href="/">
-    <img src="/logo.svg" alt="" />
-  </a>
-  <MainNav />
-  <footer class="main-footer">
-    <p class="main-footer-text">
-      Repo:
-      <a href="https://github.com/bencodezen/demo-restaurant-vue3-ts-contentful"
-        >GitHub</a
-      >
-    </p>
-    <p class="main-footer-text">
-      Built with <a href="https://v3.vuejs.org">Vue 3</a> and
-      <a href="https://www.netlify.com">Netlify</a>
-    </p>
-  </footer>
-</aside>
+  <aside class="sidebar">
+    <header>
+      <a href="/" class="logo-home" title="Restaurant info and reviews">
+        <img src="~/assets/img/logo.svg" />
+      </a>
+      <MainNav />
+    </header>
+  </aside>
 ```
 
 ## CSS
 
 ```css
-.sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  display: grid;
-  align-items: center;
-  grid-template-rows: 200px 1fr 75px;
-  border-right: 1px solid #222;
-}
+  .sidebar {
+    background-color:#fff;
+    border-right: solid 1px var(--secondary-accent-color);
+  }
 
-.main-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: end;
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
-}
+  .logo-home {
+    display:block;
+    background-color: #000;
+    text-align: center;
+  }
 
-.main-footer-text {
-  margin: 0;
-}
-
-.main-footer-text:first-child {
-  margin-bottom: 0.5rem;
-}
+  @media (min-width: 800px) {
+    .sidebar {
+      width: 35%;
+      max-width: 400px;
+      min-height: 100vh;
+    }
+    header {
+      position: sticky;
+      top:0;
+    }
+  }
 ```
